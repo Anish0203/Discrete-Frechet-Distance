@@ -12,7 +12,16 @@
  Q: A curve having two dimensional array of points
 
 # Algoithm Output Parameters
-
- dist: float64
  
  The discrete Fréchet distance between curves 'P' and 'Q'.
+ This algorithm also returns the co-ordinates of the curves 'P' and 'Q' respectively for which the Frechet Distance is taking place.
+
+# Example Input
+
+ p=[[0,0], [1,1], [2,5]]
+ q=[[1,0],[2,1]]
+ 
+ # Example Output
+ 
+ Co-odinates:  [2. 5.] [2. 1.]
+ Frechet distance: 4.0
